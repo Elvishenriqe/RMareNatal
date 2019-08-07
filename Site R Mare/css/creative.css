@@ -3453,6 +3453,15 @@ input[type="button"].btn-block {
   bottom: auto;
 }
 
+.eixos{
+  margin-left:-40px;
+  margin-top:-80px;
+}
+
+.downloads{
+  margin-right: 20px;
+}
+
 .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
@@ -4459,6 +4468,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  margin-top: -12px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4476,6 +4486,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-size:1.35rem;
 }
 
 .navbar-nav .nav-link {
@@ -6919,6 +6930,7 @@ a.close.disabled {
 .bg-primary {
 /*  background-color: #C4C4C4 !important; */
   background-image: url("https://i.ibb.co/hg5bx2R/Texturas.jpg");
+  margin-top:-50px;
 }
 
 .bg-secondary {
@@ -6955,7 +6967,8 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-image: url("../img/local.jpg");
+  padding-bottom: 50px;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6975,7 +6988,8 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-image: url("../img/RDesign.png");
+  margin-bottom: 50px;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -8732,7 +8746,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 5rem !important;
+  padding-top: 10px;
 }
 
 .pr-5,
@@ -10400,6 +10414,7 @@ button.bg-dark:focus {
 .text-white {
   color: #005A64 !important;
   font-family: Comfortaa-Regular; 
+  margin-top:-25px;
 }
 
 .text-primary {
@@ -10495,10 +10510,23 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 1.1;
 }
 
+.text-white-65 {
+  color: #005A64 !important;
+  font-size: 30px;
+  font-family: Comfortaa-Regular; 
+  line-height: 1.1;
+}
+
 .text-white-20 {
   color: #005A64 !important;
   font-family: Nunito-SemiBold; 
   padding-left: 18px;
+}
+
+.text-white-80 {
+  padding-top:300px;
+  color: #fff !important;
+  font-family: Nunito-SemiBold; 
 }
 
 .text-hide {
@@ -10578,6 +10606,11 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
+
+  .container2 {
+    min-width: 992px !important;
+  }
+
   .navbar {
     display: none;
   }
@@ -10616,9 +10649,12 @@ html {
   height: 100%;
 }
 
+
+
 .text-white-75 {
   font-family: Comfortaa-Regular;
   color: rgba(255, 255, 255);
+  font-size:12px;
 }
 
 hr.divider {
@@ -10643,20 +10679,20 @@ hr.light {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 10rem;
-
+  border-radius: 20px;
+  margin-top: -5px;
   width: 210px;
   height: 50px;
 }
 
 .btn-lg {
   font-family: Nunito-SemiBold; 
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 10rem;
-
+  border-radius: 20px;
+  padding-top: 17px;
   width: 210px;
   height: 50px;
 }
@@ -10666,10 +10702,15 @@ hr.light {
   font-size: 0.90rem;
   width: 130px;
   height: 30px;
+  margin-top:-15px;
   padding-top: 3px;
 }
 
 .page-section {
+  padding: 2rem 0;
+}
+
+.page-section-2 {
   padding: 2rem 0;
 }
 
@@ -10794,7 +10835,7 @@ header.masthead h1 {
   align-items: center
 }
 
-.equipe-title
+.title
 {
     font-size: 36px;
     color: #005A64;
@@ -10811,17 +10852,25 @@ header.masthead h1 {
     height: 45px;
     border-bottom: 1px solid #5e5e5e;
 }
+
+
 .filter-button
 {
     font-family: Nunito-SemiBold; 
-    font-size: 18px;
-  /*  border: 1px solid #ffffff; */
+    font-size: 16px;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     text-align: center;
-    color: #069297;
+    color: #fff;
     margin-bottom: 30px;
-
+    background-color: #6EA4CB;
+    margin-left:3px;
 }
+
+& .nav-link.active{
+  background-color: #fff;
+}
+
 .filter-button:hover
 {
     font-size: 18px;
@@ -10832,11 +10881,6 @@ header.masthead h1 {
     background-color: #6EA4CB;
 
 }
-.btn-default:active .filter-button:active
-{
-    background-color: #6EA4CB;
-    color: white;
-}
 
 .port-image
 {
@@ -10846,4 +10890,28 @@ header.masthead h1 {
 .equipe_product
 {
     margin-bottom: 30px;
+}
+
+.redes{
+  margin-left:50px;
+}
+
+.grade-conteudo
+{
+  margin-top: -10px;
+    margin-left: -10px;
+}
+
+#cordeamanda:hover{
+background-image: url("../img/corde/CORDe-11.PNG");
+}
+
+.cade{
+  padding-left:30px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    padding-right: 5px;
+    font-size: 15px;
 }
